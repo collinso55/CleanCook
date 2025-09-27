@@ -1,0 +1,48 @@
+----------------------------------------
+Standard Python/Virtual Environment Files
+----------------------------------------
+Virtual Environment directories
+venv/
+env/
+.venv/
+
+Compiled Python files
+pycache/
+*.pyc
+*.pyd
+*.so
+
+Jupyter Notebook files and output (if not required)
+.ipynb_checkpoints
+
+----------------------------------------
+Machine Learning & Data Artifacts
+----------------------------------------
+Ignore large, regenerated model and scaler files
+The app looks for these inside data/processed/
+data/processed/lstm_fuel_model.h5
+data/processed/minmax_scaler.pkl
+
+Ignore any generic serialization files
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.pt
+
+----------------------------------------
+IDE and OS Files
+----------------------------------------
+VSCode settings (or other IDEs like PyCharm, etc.)
+.vscode/
+.idea/
+
+Operating System generated files
+.DS_Store
+Thumbs.db
+
+----------------------------------------
+Streamlit & Application Cache
+----------------------------------------
+Streamlit's local cache directory
+.streamlit/
