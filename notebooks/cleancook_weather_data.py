@@ -127,7 +127,7 @@ def save_daily_to_csv(dataframe, filename=None):
 
 def main():
     # Configuration
-    API_KEY = "f1cb3a4fdae650a1ef49b5802621040b"  # Replace with your actual API key
+    API_KEY = ""  # Replace with your actual API key
     LAT, LON = 3.8480,11.5021  # Kumbo, Cameroon coordinates
     
     print("🌤️  OpenWeather Daily Data Collection (2010-Present)")
